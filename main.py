@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-os.environ['PATH'] += r'C:/Users/Goktu/OneDrive/Masaüstü/SeleniumDrivers'
+os.environ['PATH'] += r'C:/Users/YourUserName/YourDriverPath'
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--incognito")
